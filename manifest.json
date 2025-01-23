@@ -4,9 +4,6 @@
     "version": "1.0",
     "description": "Automatically applies dark mode to all websites.",
     "permissions": ["activeTab", "storage"],
-    "background": {
-      "service_worker": "background.js"
-    },
     "host_permissions": ["<all_urls>"],
     "action": {
       "default_popup": "popup.html",
